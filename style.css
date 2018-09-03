@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Seagram tfb';
+    /*a name to be used later*/
+    src: url('Images/Seagram tfb.ttf');
+    /*URL to font*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1650px;
+    margin: 0 auto;
+    background-color: #313131;
+}
+
+
+
+.wrapper {
+    /*    position: absolute;*/
+    /*    margin: 0 auto;
+    max-width: 1040px;*/
+}
+
+.header {
+    margin: 0;
+    height: 200px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.navbar {
+    /*    width: 1200px;*/
+    width: 1650px;
+    margin-left: 15em;
+}
+
+.navbar ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    /*    margin-left: 25%;
+    position: relative;*/
+}
+
+li {
+    float: left;
+}
+
+.navbar li a h3 {
+    color: white;
+    /*    background-color: #555555;*/
+    background-color: #C90000;
+
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    font-family: Seagram tfb;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.navbar li a h3:hover {
+    background-color: #9B0000;
+}
+
+.main {
+    /*    background-color: #555555;*/
+    background-color: #313131;
+    /*    width: 1650px;*/
+}
+
+.main h2 {
+    /*    margin-left: 400px;*/
+    margin-left: 15em;
+    font-family: Seagram tfb;
+    color: white;
+    font-size: 32pt;
+    letter-spacing: 3px;
+}
+
+.main pre {
+    font-family: Lucida Console;
+    font-size: 16pt;
+    letter-spacing: 2px;
+    color: white;
+    /*    margin-left: 400px;*/
+    margin-left: 15em;
+    line-height: 1.2;
+}
